@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangar 18 - Αντιγραφή (2).Plugins", "Hangar 18 - Αντιγραφή (2).Plugins.csproj", "{6DD49FB4-0381-9AB6-45DA-E46C93371312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangar 18 - Αντιγραφή (2)", "Hangar 18 - Αντιγραφή (2).csproj", "{8970180A-3580-3DFA-7A40-03CC025BF229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangar 18 - Αντιγραφή (2).Editor.Plugins", "Hangar 18 - Αντιγραφή (2).Editor.Plugins.csproj", "{2D00D55E-1ED2-C54B-4626-7A449020F935}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD49FB4-0381-9AB6-45DA-E46C93371312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD49FB4-0381-9AB6-45DA-E46C93371312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD49FB4-0381-9AB6-45DA-E46C93371312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD49FB4-0381-9AB6-45DA-E46C93371312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8970180A-3580-3DFA-7A40-03CC025BF229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8970180A-3580-3DFA-7A40-03CC025BF229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8970180A-3580-3DFA-7A40-03CC025BF229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8970180A-3580-3DFA-7A40-03CC025BF229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D00D55E-1ED2-C54B-4626-7A449020F935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D00D55E-1ED2-C54B-4626-7A449020F935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D00D55E-1ED2-C54B-4626-7A449020F935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D00D55E-1ED2-C54B-4626-7A449020F935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,626 @@
+Mono path[0] = 'C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/test_Data/Managed'
+Mono path[1] = 'C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/test_Data/Mono'
+Mono config path = 'C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/test_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55222
+Multi-casting "[IP] 192.168.1.2 [Port] 55222 [Flags] 2 [Guid] 3386168944 [EditorId] 3096947551 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-5JJFQII) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55222]
+PlayerConnection already initialized - listening to [0.0.0.0:55222]
+Player data archive not found at `C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/test_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\DatabaseControl.dll (this message is harmless)
+Loading C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\DatabaseControl.dll into Unity Child Domain
+- Completed reload, in  0.166 seconds
+Platform assembly: C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3360x1080 at -1440,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.989513 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2738 -> priority: 1 
+  Thread -> id: 2440 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.412672 ms
+System memory in use before: 19.0 MB.
+System memory in use after: 19.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 589.
+Total: 37.362186 ms (FindLiveObjects: 0.021625 ms CreateObjectMapping: 0.020456 ms MarkObjects: 37.294971 ms  DeleteObjects: 0.024255 ms)
+
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.Match.NetworkMatch:ListMatches(ListMatchRequest, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:327)
+UnityEngine.Networking.Match.NetworkMatch:ListMatches(Int32, Int32, String, Boolean, Int32, Int32, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:314)
+JoinGame:RefreshRoomList() (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\JoinGame.cs:42)
+JoinGame:Start() (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\JoinGame.cs:34)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 327)
+
+MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.Match.NetworkMatch:CreateMatch(CreateMatchRequest, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:152)
+UnityEngine.Networking.Match.NetworkMatch:CreateMatch(String, UInt32, Boolean, String, String, String, Int32, Int32, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:139)
+UnityEngine.Networking.NetworkManagerHUD:OnGUI() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManagerHUD.cs:196)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 152)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.797548 ms
+System memory in use before: 29.4 MB.
+System memory in use after: 29.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 698.
+Total: 0.562555 ms (FindLiveObjects: 0.028346 ms CreateObjectMapping: 0.024255 ms MarkObjects: 0.488912 ms  DeleteObjects: 0.020164 ms)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 90health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 80health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 70health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 60health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 50health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 40health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 30health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 20health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 10health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 now has 0health
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:92)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 92)
+
+Player1 IS DEADDD
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Player:Die() (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:130)
+Player:RpcTakeDamage(Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:96)
+Player:InvokeRpcRpcTakeDamage(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleRPC(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:660)
+UnityEngine.Networking.ClientScene:OnRPCMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:739)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:231)
+UnityEngine.Networking.LocalClient:ProcessInternalMessages() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:141)
+UnityEngine.Networking.LocalClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\LocalClient.cs:69)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:947)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 130)
+
+Player1 has been shot.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:CmdPlayerShot(String, Int32) (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\PlayerShoot.cs:113)
+PlayerShoot:InvokeCmdCmdPlayerShot(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:617)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1281)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportReceive(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:738)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1866)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/PlayerShoot.cs Line: 113)
+
+Player1 respawned !!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Respawn>c__Iterator0:MoveNext() (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\Player.cs:150)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/Users/alex/Documents/unityProjects/Hangar 18 - 1/Assets/Scripts/Player.cs Line: 150)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:52.29.208.212:9999}
+Attempt to send to not connected connection {1}
+UnityEngine.Networking.NetworkTransport:SendWrapper(Int32, Int32, Int32, Byte[], Int32, Byte&)
+UnityEngine.Networking.NetworkTransport:Send(Int32, Int32, Int32, Byte[], Int32, Byte&) (at C:\buildslave\unity\build\artifacts\generated\common\modules\UNET\UNETworkingBindings.gen.cs:762)
+UnityEngine.Networking.NetworkConnection:TransportSend(Byte[], Int32, Int32, Byte&) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:587)
+UnityEngine.Networking.ChannelPacket:SendToTransport(NetworkConnection, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ChannelPacket.cs:43)
+UnityEngine.Networking.ChannelBuffer:SendInternalBuffer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ChannelBuffer.cs:405)
+UnityEngine.Networking.ChannelBuffer:CheckInternalBuffer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ChannelBuffer.cs:169)
+UnityEngine.Networking.NetworkConnection:FlushChannels() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:316)
+UnityEngine.Networking.NetworkServerSimple:UpdateConnections() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:197)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:267)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+
+[C:/buildslave/unity/build/Runtime/Networking/UNETVirtualUserHost.cpp line 359] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/modules/UNET/UNETworkingBindings.gen.cs Line: 762)
+
+Failed to send internal buffer channel:1 bytesToSend:90
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.ChannelPacket:SendToTransport(NetworkConnection, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ChannelPacket.cs:51)
+UnityEngine.Networking.ChannelBuffer:SendInternalBuffer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ChannelBuffer.cs:405)
+UnityEngine.Networking.ChannelBuffer:CheckInternalBuffer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ChannelBuffer.cs:169)
+UnityEngine.Networking.NetworkConnection:FlushChannels() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:316)
+UnityEngine.Networking.NetworkServerSimple:UpdateConnections() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:197)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:267)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/ChannelPacket.cs Line: 51)
+
+Send Error: WrongConnection channel:1 bytesToSend:90
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.ChannelPacket:SendToTransport(NetworkConnection, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ChannelPacket.cs:69)
+UnityEngine.Networking.ChannelBuffer:SendInternalBuffer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ChannelBuffer.cs:405)
+UnityEngine.Networking.ChannelBuffer:CheckInternalBuffer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ChannelBuffer.cs:169)
+UnityEngine.Networking.NetworkConnection:FlushChannels() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:316)
+UnityEngine.Networking.NetworkServerSimple:UpdateConnections() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:197)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:267)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/ChannelPacket.cs Line: 69)
+
+ServerDisconnected due to error: Timeout
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:OnServerDisconnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1002)
+UnityEngine.Networking.NetworkManager:OnServerDisconnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:850)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:220)
+UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:202)
+UnityEngine.Networking.NetworkServer:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:715)
+UnityEngine.Networking.ServerSimpleWrapper:OnDisconnected(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1861)
+UnityEngine.Networking.NetworkServerSimple:HandleDisconnect(Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:364)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:253)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:691)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:642)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 1002)
+
+MatchMakingClient DropConnection :https://mm.unet.unity3d.com/json/reply/DropConnectionRequest
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.Match.NetworkMatch:DropConnection(DropConnectionRequest, BasicResponseDelegate) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:282)
+UnityEngine.Networking.Match.NetworkMatch:DropConnection(NetworkID, NodeID, Int32, BasicResponseDelegate) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:269)
+UnityEngine.Networking.NetworkManager:StopMatchMaker() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1184)
+UnityEngine.Networking.NetworkManager:StopServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:599)
+UnityEngine.Networking.NetworkManager:StopHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:575)
+UnityEngine.Networking.NetworkManagerHUD:OnGUI() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManagerHUD.cs:165)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 282)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.916746 ms
+System memory in use before: 27.0 MB.
+System memory in use after: 26.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 627.
+Total: 0.872034 ms (FindLiveObjects: 0.017826 ms CreateObjectMapping: 0.058739 ms MarkObjects: 0.525149 ms  DeleteObjects: 0.269734 ms)
+
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Networking.Match.NetworkMatch:ListMatches(ListMatchRequest, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:327)
+UnityEngine.Networking.Match.NetworkMatch:ListMatches(Int32, Int32, String, Boolean, Int32, Int32, DataResponseDelegate`1) (at C:\buildslave\unity\build\Runtime\Networking\Managed\MatchMakingClient.cs:314)
+JoinGame:RefreshRoomList() (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\JoinGame.cs:42)
+JoinGame:Start() (at C:\Users\alex\Documents\unityProjects\Hangar 18 - 1\Assets\Scripts\JoinGame.cs:34)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 327)
+

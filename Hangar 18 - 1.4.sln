@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangar 18 - 1.4.Plugins", "Hangar 18 - 1.4.Plugins.csproj", "{00CC98CB-B0BD-EA9F-D24C-D020D675315C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangar 18 - 1.4", "Hangar 18 - 1.4.csproj", "{DCD09485-396B-253A-D739-358DF526E0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangar 18 - 1.4.Editor.Plugins", "Hangar 18 - 1.4.Editor.Plugins.csproj", "{4FD14CEC-5A25-AB2B-8F1C-50B9A0243632}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00CC98CB-B0BD-EA9F-D24C-D020D675315C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CC98CB-B0BD-EA9F-D24C-D020D675315C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CC98CB-B0BD-EA9F-D24C-D020D675315C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CC98CB-B0BD-EA9F-D24C-D020D675315C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD09485-396B-253A-D739-358DF526E0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD09485-396B-253A-D739-358DF526E0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD09485-396B-253A-D739-358DF526E0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD09485-396B-253A-D739-358DF526E0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD14CEC-5A25-AB2B-8F1C-50B9A0243632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD14CEC-5A25-AB2B-8F1C-50B9A0243632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD14CEC-5A25-AB2B-8F1C-50B9A0243632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD14CEC-5A25-AB2B-8F1C-50B9A0243632}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
